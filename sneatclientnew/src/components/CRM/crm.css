@@ -1,0 +1,515 @@
+.crmContainer .item {
+  border: 1px solid rgba(86, 106, 127, 0.25);
+  border-radius: 10px;
+  font-size: 13px;
+}
+.crmContainer .crmTop {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.crmContainer .crmTop .item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.crmContainer .crmTop .item1 .item1Top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.crmContainer .crmTop .item1 .item1Top p:nth-child(1) {
+  font-weight: 600;
+  color: #4d5f71;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.crmContainer .crmTop .item1 .item1Top p:nth-child(2) {
+  font-weight: 600;
+  color: #4d5f71;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.crmContainer .crmTop .item1 .item1Top p:nth-child(2) img {
+  width: 30px;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+.crmContainer .crmTop .item1 .item1Top p:nth-child(3) span:nth-child(1) {
+  display: inline-block;
+  width: 40px;
+  background-color: #e7e7ff;
+  color: #777aff;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.crmContainer .crmTop .item1 .item1Top .item1Right {
+  text-align: right;
+}
+.crmContainer .crmTop .item1 .item1Top .item1Bottom {
+  width: 100%;
+}
+.crmContainer .crmTop .item2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 20px;
+}
+.crmContainer .crmTop .item2 p {
+  font-weight: 600;
+  color: #4d5f71;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.crmContainer .crmTop .item2 p span {
+  font-weight: 500;
+  font-size: 14px;
+}
+.crmContainer .crmTop .item3 div {
+  margin-left: -5px;
+}
+.crmContainer .crmTop .item4 {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.crmContainer .crmTop .item4 img {
+  width: 40px;
+}
+.crmContainer .crmTop .item4 p {
+  margin-top: 10px;
+}
+.crmContainer .crmTop .item4 p span {
+  color: #ff3e1d;
+}
+.crmContainer .crmTop .item4 p img {
+  width: 20px;
+}
+.crmContainer .crmTop .item4 p #downNumer {
+  color: #ff3e1d;
+}
+.crmContainer .crmTop .item4 .number {
+  font-size: 18px;
+  font-weight: 600;
+}
+.crmContainer .crmTop .item4 .item4Right img {
+  width: 20px;
+  height: 20px;
+}
+.crmContainer .crmTop .item5 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.crmContainer .crmTop .item5 p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.crmContainer .crmTop .item5 .report {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.crmContainer .crmTop .item5 #upNumber {
+  color: #94e569;
+  font-size: 12px;
+}
+.crmContainer .crmTop .item5 .item5Right {
+  padding-right: 20px;
+  position: relative;
+}
+.crmContainer .crmTop .item5 .item5Right .centerContent {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -10px;
+}
+.crmContainer .crmTop .item5 .item5Right .centerContent p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.crmContainer .crmMiddle1 {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+}
+.crmContainer .item6 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: space-between;
+}
+.crmContainer .item6 .item6LeftContainer {
+  width: 50%;
+  border-right: 1px solid #e6e9eb;
+}
+.crmContainer .item6 .item6RightContainer {
+  width: 50%;
+}
+.crmContainer .item6 .item6Top {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.crmContainer .item6 .item6Top p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.crmContainer .item6 .item6Top p span {
+  display: inline-block;
+  color: #777aff;
+}
+.crmContainer .item6 .rowlist {
+  display: flex;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.crmContainer .item6 .rowlist .rowListTop {
+  display: flex;
+}
+.crmContainer .item6 .rowlist .rowListTop img {
+  width: 30px;
+  margin-right: 10px;
+}
+.crmContainer .item6 .rowlist .item6ListRight {
+  display: flex;
+}
+.crmContainer .item6 .rowlist .item6ListRight div {
+  width: 50px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 5px;
+  color: #94e569;
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: #e8fadf;
+}
+.crmContainer .item7 .item7Top {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.crmContainer .item7 .item7Top h3 {
+  font-size: 20px;
+}
+.crmContainer .item7 .item7Top p {
+  font-size: 12px;
+  padding-top: 5px;
+}
+.crmContainer .item7 .item7Bottom {
+  padding: 20px;
+  margin-top: -20px;
+}
+.crmContainer .item7 .item7Bottom .rowlist {
+  display: flex;
+  justify-content: space-between;
+}
+.crmContainer .item7 .item7Bottom .rowListTop {
+  display: flex;
+  margin-bottom: 20px;
+}
+.crmContainer .item7 .item7Bottom .rowListTop img {
+  width: 30px;
+  margin-right: 10px;
+}
+.crmContainer .item7 .item7Bottom .crmBarChart {
+  margin-top: -30px;
+}
+.crmContainer .item7 .item7Bottom .item7ListRight {
+  display: flex;
+}
+.crmContainer .item7 .item7Bottom .item7ListRight img {
+  margin-top: -40px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.crmContainer .item7 .item7Bottom .item7ListRight p {
+  font-size: 12px;
+}
+.crmContainer .crmMiddle2 {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+}
+.crmContainer .crmMiddle2 .item8 .item8Top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.crmContainer .crmMiddle2 .item8 .item8Top .item8TopRight div {
+  height: 25px;
+}
+.crmContainer .crmMiddle2 .item8 .item8Top .item8TopRight .bottom {
+  display: flex;
+  margin-top: 10px;
+}
+.crmContainer .crmMiddle2 .item8 .item8Top .item8TopRight .bottom div:nth-child(1) {
+  width: 70px;
+  line-height: 25px;
+  text-align: center;
+  color: #94e569;
+  background-color: #e8fadf;
+  border-radius: 5px;
+}
+.crmContainer .crmMiddle2 .item8 .item8Top .item8TopRight .bottom div:nth-child(2) {
+  margin-left: -10px;
+  line-height: 25px;
+}
+.crmContainer .crmMiddle2 .item8 .item8Top select {
+  width: 80px;
+  height: 25px;
+  color: #696cff;
+  text-align: center;
+  border: 1px solid #696cff;
+  border-radius: 5px;
+}
+.crmContainer .crmMiddle2 .item8 .heatMap {
+  margin-top: -15px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Top {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.crmContainer .crmMiddle2 .item9 .item9Top h3 {
+  font-size: 20px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Top p {
+  font-size: 12px;
+  padding-top: 5px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom {
+  padding: 20px;
+  padding-top: 0;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList .bold {
+  font-weight: 600;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList .country {
+  font-size: 14px;
+  color: #bdc3ca;
+  margin-top: 5px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList .rowList9Left {
+  display: flex;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList .rowList9Left .imgContainer {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList .rowList9Left img {
+  width: 30px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList .rowList9Left .listRight {
+  margin-top: -10px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList .rowList9Left .listRight img {
+  width: 15px;
+  margin-left: 5px;
+}
+.crmContainer .crmMiddle2 .item9 .item9Bottom .rowList .rowList9Left .listRight .number {
+  color: #94e569;
+  font-weight: 600;
+  font-size: 12px;
+}
+.crmContainer .crmMiddle2 .item10 .item10Top {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.crmContainer .crmMiddle2 .item10 .item10Top h3 {
+  font-size: 20px;
+}
+.crmContainer .crmMiddle2 .item10 .item10Bottom {
+  margin-top: -30px;
+}
+.crmContainer .crmMiddle2 .item10 .item10Bottom .extraLegend {
+  display: flex;
+  justify-content: space-around;
+}
+.crmContainer .crmMiddle2 .item10 .item10Bottom .extraLegend #ratio::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #94e569;
+  display: inline-block;
+  margin-right: 10px;
+}
+.crmContainer .crmMiddle2 .item10 .item10Bottom .extraLegend #total::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d1caca;
+  display: inline-block;
+  margin-right: 10px;
+}
+.crmContainer .crmBottom {
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 3fr;
+  margin-top: 20px;
+}
+.crmContainer .item11 {
+  margin-bottom: 20px;
+  overflow-x: scroll;
+}
+.crmContainer .item11 .item11Top {
+  display: flex;
+  padding: 20px;
+  padding-bottom: 0;
+  justify-content: space-between;
+}
+.crmContainer .item11 .item11Top h3 {
+  font-size: 20px;
+}
+.crmContainer .item11 .browserList table {
+  width: 550px;
+  padding-left: 20px;
+}
+.crmContainer .item11 .browserList table th,
+.crmContainer .item11 .browserList table td {
+  text-align: start;
+}
+.crmContainer .item11 .browserList table tr {
+  height: 50px;
+}
+.crmContainer .item11 .browserList table img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.crmContainer .item11 .browserList table .profile {
+  display: flex;
+  width: 170px;
+}
+.crmContainer .item11 .browserList table .profile .nameJob {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -8px;
+}
+.crmContainer .item11 .browserList table .profile .nameJob div {
+  font-size: 12px;
+}
+.crmContainer .item11 .browserList table .projectContainer {
+  width: 90px;
+}
+.crmContainer .item11 .browserList table .project {
+  width: 60px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+.crmContainer .item11 .browserList table .taskWidth {
+  width: 50px;
+}
+.crmContainer .item11 .browserList table .BarChartWidth {
+  margin-left: 20px;
+}
+.crmContainer .item11 .browserList table .project1 {
+  color: #696cff;
+  background-color: #e7e7ff;
+}
+.crmContainer .item11 .browserList table .project2 {
+  color: #ff3e1d;
+  background-color: #ffe0db;
+}
+.crmContainer .item11 .browserList table .project3 {
+  color: #ffbb32;
+  background-color: #fff1d6;
+}
+.crmContainer .item11 .browserList table .project4 {
+  color: #34cff0;
+  background-color: #d6f5fc;
+}
+.crmContainer .item11 .browserList table .project5 {
+  color: #939eae;
+  background-color: #ebedf0;
+}
+.crmContainer .item12 {
+  margin-bottom: 20px;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.crmContainer .item12 .browserList {
+  margin-top: 20px;
+}
+.crmContainer .item12 .browserList table {
+  width: 100%;
+  padding-left: 20px;
+}
+.crmContainer .item12 .browserList table th,
+.crmContainer .item12 .browserList table td {
+  text-align: start;
+}
+.crmContainer .item12 .browserList table tr {
+  height: 50px;
+}
+.crmContainer .item12 .browserList table img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.crmContainer .item12 .browserList table .profile {
+  display: flex;
+}
+.crmContainer .item12 .browserList table .profile .nameJob {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+.crmContainer .item12 .browserList table .profile .nameJob div {
+  font-size: 12px;
+}
+.crmContainer .item12 .browserList table .chart,
+.crmContainer .item12 .browserList table .paypal {
+  text-align: center;
+}
+.crmContainer .item12 .browserList table .chart img,
+.crmContainer .item12 .browserList table .paypal img {
+  width: 50px;
+  height: 30px;
+}
+.crmContainer .item12 .browserList table .action {
+  text-align: center;
+}
+.crmContainer .item12 .browserList table .statusContainer {
+  width: 100px;
+}
+.crmContainer .item12 .browserList table .status {
+  width: 60px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+.crmContainer .item12 .browserList table .status1 {
+  color: #79df43;
+  background-color: #e8fadf;
+}

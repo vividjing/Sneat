@@ -1,0 +1,6 @@
+input::placeholder {
+  color: rgba(50, 71, 92, 0.6);
+}
+.welcome img {
+  vertical-align: top;
+}
