@@ -23,6 +23,10 @@ app.use((req, res, next) => {
 
 // Routes
 
+app.get("/", (req, res) => {
+  res.json("hello");
+});
+
 app.post("/user/register", async (req, res) => {
   try {
     const { email } = req.body;
