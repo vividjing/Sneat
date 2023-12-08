@@ -1,12 +1,12 @@
-import express from "express";
-import bodyParser from "body-parser";
-import mongoose from "mongoose";
-import cors from "cors";
-import dotenv from "dotenv";
-import User from "./models/User.js";
-import Event from "./models/Event.js";
-import jsonwebtoken from "jsonwebtoken";
-import jwtVerify from "./jwtVerify.js";
+const express = require("express");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const cors = require("cors");
+const dotenv = require("dotenv");
+const User = require("./models/User.js");
+const Event = require("./models/Event.js");
+const jsonwebtoken = require("jsonwebtoken");
+const jwtVerify = require("./jwtVerify.js");
 
 // CONFIGURATION
 
@@ -196,3 +196,5 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port:${PORT}`));
   })
   .catch((error) => console.log(error));
+
+module.exports = app;
