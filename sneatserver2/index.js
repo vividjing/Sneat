@@ -27,8 +27,9 @@ app.use((req, res, next) => {
 
 // Routes
 
-app.get("/", (req, res) => {
-  res.json("hello");
+app.get("/", async (req, res) => {
+  const user = await User.find();
+  res.json(user);
 });
 
 app.post("/user/register", async (req, res) => {
