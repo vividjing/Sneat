@@ -16,17 +16,13 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use(
-  cors({
-    origin: ["https://sneat-dashboard.vercel.app"],
-    methods: ["post", "get", "delete", "put"],
-    credentials: true,
-  })
-);
+app.use(cors());
 
 app.use((req, res, next) => {
-  response.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Headers", "Content-type,Authorization");
+  res.set({
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-type,Authorization",
+  });
   next();
 });
 
