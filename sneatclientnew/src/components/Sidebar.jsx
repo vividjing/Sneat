@@ -46,7 +46,7 @@ export default function Sidebar() {
             onClick={handleCloseSideBar}
           >
             <Link
-              to="/dashboard"
+              to="/dashboard/analytics"
               className="items-center flex gap-3 ml-3 mt-4 text-xl font-extrabold tracking-tight dark:text-white text-slate-900"
             >
               <SiShopware
