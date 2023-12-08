@@ -25,7 +25,7 @@ const initialState = () => {
     bgColor: bgColor ? bgColor : "#d6f5fc",
     calendarfilter: ["personal", "family", "holiday", "business", "etc"],
     checkall: true,
-    isLogged: true,
+    isLogged: false,
     token: token ? token : "",
     userName: token ? userName : "",
     isEventActive: false,
