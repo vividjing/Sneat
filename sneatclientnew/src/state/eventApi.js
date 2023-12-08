@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const eventApi = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5001/event",
+    baseUrl: process.env.REACT_APP_BASE_URL2,
     prepareHeaders: (headers, { getState }) => {
       const token = getState().global.token;
       if (token) {
