@@ -20,7 +20,6 @@ app.use(cors());
 
 app.use((req, res, next) => {
   res.set({
-    "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Headers": "Content-type,Authorization",
   });
   next();
