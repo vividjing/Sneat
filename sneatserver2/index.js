@@ -21,6 +21,7 @@ app.use(cors());
 app.use((req, res, next) => {
   res.set({
     "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-type,Authorization",
   });
   next();
 });
@@ -76,12 +77,7 @@ app.post("/user/login", async (req, res) => {
     res.status(404).json({ message: error.message });
   }
 });
-app.use((req, res, next) => {
-  res.set({
-    "Access-Control-Allow-Headers": "Content-type,Authorization",
-  });
-  next();
-});
+
 app.use(jwtVerify);
 
 app.get("/event", async (req, res) => {
