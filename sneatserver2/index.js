@@ -15,7 +15,13 @@ const app = express();
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(cors());
+app.use(
+  cors({
+    origin: ["https://sneat-dashboard.vercel.app"],
+    methods: ["post", "get", "delete", "put"],
+    credentials: true,
+  })
+);
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Headers", "Content-type,Authorization");
   next();
